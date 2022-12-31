@@ -1,0 +1,103 @@
+*{
+    color: black;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+.portfolio{
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    padding: 5px;
+    background-color: blanchedalmond;
+    border-radius: 10px;
+    border: 1px solid black;
+    color: black;
+    cursor: pointer;
+}
+nav{
+    width: 100%;
+    height:50px;
+    display: flex;
+    justify-content: flex-end;
+}
+nav ul li img{
+    width: 25px;
+}
+nav ul li a img{
+    height: 25px;
+    border-radius: 50%;
+}
+nav ul li{
+    margin-left: 15px;
+    margin-right: 15px;
+    vertical-align: middle;
+}
+.nav-bar-right{
+    height: auto;
+    display: flex;
+    list-style-type: none;
+}
+.principal-content{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    place-items: center;
+}
+.letters img{
+    width: 45px;
+    padding-bottom: 15px;
+}
+.search-bar{
+    width: 25px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.search-bar input{
+    border-color: 1px solid black;
+    border-radius: 15px;
+}
+.search-bar img{
+    width: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+footer{
+    position: absolute;
+    bottom: 15px;
+    width: 100%;
+    height:50px;
+    display: flex;
+    justify-content: center;
+}
+footer li{
+    display: inline-block;
+    margin: 10px 10px;
+}
+.footer-left{
+    margin-right: 35px;
+}
+
+
+.inactive{
+    display: block;
+}
+
+@media (max-width: 640px) {
+    .portfolio{
+        position: absolute;
+        top: 55px;
+        left: 15px;        
+    }
+}
